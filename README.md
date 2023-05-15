@@ -4,7 +4,7 @@ VectorChroma is a web-based 3D mesh viewer that allows you to interactively visu
 
 Live build: https://andrewsink.github.io/VectorChroma/
 
-![VectorChroma](https://github.com/AndrewSink/VectorChroma/assets/46334898/8a069391-bf29-4937-8af2-92d54610d8b7)
+![VectorChroma](https://github.com/AndrewSink/VectorChroma/assets/46334898/eacce2cb-b9d3-4590-b0d9-1a0b377485a0)
 
 ## Usage
 
