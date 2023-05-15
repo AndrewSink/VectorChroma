@@ -1,0 +1,50 @@
+/* styles.css */
+
+#canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    min-width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    z-index: 1;
+}
+
+.sidebar h5 {
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.sidebar .btn {
+    color: #fff;
+}
+
+.main-content {
+    margin-left: 0px;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.credits {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+.ko-fi {
+    position: relative;
+}

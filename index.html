@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>VectorChroma</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/TransformControls.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/STLLoader.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 bg-dark sidebar">
+                    <h5 class="my-3 text-center">VectorChroma</h5>
+                    <button id="rotationButton" class="btn btn-primary my-2">Rotation On</button>
+                    <button id="wireframeButton" class="btn btn-primary my-2">Wireframe Off</button>
+                    <button id="rotationControlButton" class="btn btn-primary my-2">Rotation Controls</button>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="btn btn-info my-2" id="uploadButton">Upload .STL</button>
+                    <input type="file" id="fileInput" style="display:none;">
+                </div>
+                <div class="col-sm-10 main-content">
+                    <div id="canvas-container"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+        <div class="ko-fi">
+
+            <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+            <script>
+                kofiWidgetOverlay.draw('andrewsink', {
+                    'type': 'floating-chat',
+                    'floating-chat.donateButton.text': 'Support me',
+                    'floating-chat.donateButton.background-color': '#00b9fe',
+                    'floating-chat.donateButton.text-color': '#fff'
+                });
+            </script>
+        </div>
+
+        <div class="credits">Andrew Sink - 2023 <br> Full code on <a href="http://www.github.com">Github</a></div>
+
+    </body>
+
+</html>
